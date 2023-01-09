@@ -1,0 +1,13 @@
+// use of case statements
+initial
+    begin
+        case (divisor_2)
+            divisor_2 <= 7'b0000000 : n = 1;
+            divisor_2 <= 7'b0000010 : n = 2;
+            divisor_2 <= 7'b0000100 : n = 3;
+            divisor_2 <= 7'b0001000 : n = 4;
+            divisor_2 <= 7'b0010000 : n = 5;
+            divisor_2 <= 7'b0100000 : n = 6;
+            divisor_2 <= 7'b1000000 : n = 7;
+        endcase           
+    end
